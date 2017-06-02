@@ -1,0 +1,9 @@
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\bin\Debug\netcoreapp1.1\Eleina.deps.json
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\bin\Debug\netcoreapp1.1\Eleina.runtimeconfig.json
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\bin\Debug\netcoreapp1.1\Eleina.runtimeconfig.dev.json
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\bin\Debug\netcoreapp1.1\Eleina.dll
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\bin\Debug\netcoreapp1.1\Eleina.pdb
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\obj\Debug\netcoreapp1.1\Eleina.csprojResolveAssemblyReference.cache
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\obj\Debug\netcoreapp1.1\Eleina.AssemblyInfo.cs
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\obj\Debug\netcoreapp1.1\Eleina.dll
+C:\AAALL stuffs\AAAFontys\22\Killer App\Eleina2017\Eleina\Eleina\obj\Debug\netcoreapp1.1\Eleina.pdb

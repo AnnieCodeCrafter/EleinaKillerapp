@@ -1,0 +1,189 @@
+﻿<template>
+
+  <!--<form role="form" submit.delegate="signup()">
+
+    <label for="email">Email</label>
+    <input type="text" value.bind="email" placeholder="Email">
+
+    <label for="password">Password</label>
+    <input type="password" value.bind="password" placeholder="Password">
+
+    <button type="submit">Signup</button>
+
+    <input id="name" type="text" value.bind="myData" />
+    <h3>${myData}</h3>
+
+  </form>-->
+
+  <!--<div class="container">
+    <div class="row">
+      <div class="span12">
+        <table class="table-condensed table-bordered table-striped">
+          <thead>
+            <tr>
+              <th colspan="7">
+                <span class="btn-group">
+                  <a class="btn"><i class="icon-chevron-left"></i></a>
+                  <a class="btn active">February 2012</a>
+                  <a class="btn"><i class="icon-chevron-right"></i></a>
+                </span>
+              </th>
+            </tr>
+            <tr>
+              <th>Su</th>
+              <th>Mo</th>
+              <th>Tu</th>
+              <th>We</th>
+              <th>Th</th>
+              <th>Fr</th>
+              <th>Sa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="muted">29</td>
+              <td class="muted">30</td>
+              <td class="muted">31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td class="muted">1</td>
+              <td class="muted">2</td>
+              <td class="muted">3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>-->
+
+  <div class="container">
+	<div class="row">
+        <div class="col-sm-4">
+            <h2>By Day</h2>
+            <hr/>
+            <div class="date-picker"  data-date="2017/09/02" data-keyboard="true">
+                <div class="date-container pull-left">
+                    <h4 class="weekday">Monday</h4>
+                    <h2 class="date">Februray 4th</h2>
+                    <h4 class="year pull-right">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" class="fa fa-angle-left"></span>
+                <span data-toggle="datepicker" data-type="add" class="fa fa-angle-right"></span>
+                <div class="input-group input-datepicker">
+                    <input type="text" class="form-control" data-format="YYYY/MM/DD" placeholder="YYYY/MM/DD">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+                <span data-toggle="calendar" class="fa fa-calendar"></span>
+            </div>
+        </div>
+        <!--<div class="col-sm-4">
+            <h2>By Week</h2>
+            <hr/>
+            <div class="date-picker">
+                <div class="date-container pull-left">
+                    <h4 class="weekday">Monday</h4>
+                    <h2 class="date">Februray 4th</h2>
+                    <h4 class="year pull-right">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" data-amt="7" class="fa fa-angle-left pull-left"></span>
+                <span data-toggle="datepicker" data-amt="7" class="fa fa-angle-right pull-right"></span>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h2>Start Date</h2>
+            <hr/>
+            <div class="date-picker" data-date="2014/10/31">
+                <div class="date-container pull-left">
+                    <h4 class="weekday">Monday</h4>
+                    <h2 class="date">Februray 4th</h2>
+                    <h4 class="year pull-right">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" data-amt="1" class="fa fa-angle-left pull-left"></span>
+                <span data-toggle="datepicker" data-amt="1" class="fa fa-angle-right pull-right"></span>
+            </div>
+        </div>
+    </div>-->
+    <hr />
+    <div class="row">
+        <!--<div class="col-sm-4">
+            <h2>By Month</h2>
+            <hr/>
+            <div class="date-picker" data-type="months">
+                <div class="date-container pull-left">
+                    <h4 class="weekday">Monday</h4>
+                    <h2 class="date">Februray 4th</h2>
+                    <h4 class="year pull-right">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" class="fa fa-angle-left pull-left"></span>
+                <span data-toggle="datepicker" class="fa fa-angle-right pull-right"></span>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h2>By Year</h2>
+            <hr/>
+            <div class="date-picker" data-type="year" data-date="2014/12/25">
+                <div class="date-container pull-left">
+                    <h4 class="weekday">Monday</h4>
+                    <h2 class="date">Februray 4th</h2>
+                    <h4 class="year pull-right">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" class="fa fa-angle-left pull-left"></span>
+                <span data-toggle="datepicker" class="fa fa-angle-right pull-right"></span>
+            </div>
+        </div>-->
+        <div class="col-sm-4">
+            <h2>Formatting</h2>
+            <hr/>
+            <div class="date-picker" data-date="2017/10/31">
+                <div class="date-container pull-left">
+                    <h4 class="weekday" data-format="ddd">Monday</h4>
+                    <h2 class="date" data-format="MMM Do">Februray 4th</h2>
+                    <h4 class="year pull-right" data-format="YY">2014</h4>
+                </div>
+                <span data-toggle="datepicker" data-type="subtract" data-amt="1" class="fa fa-angle-left pull-left"></span>
+                <span data-toggle="datepicker" data-amt="1" class="fa fa-angle-right pull-right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+
+  </template>
