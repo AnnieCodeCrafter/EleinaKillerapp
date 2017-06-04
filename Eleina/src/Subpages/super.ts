@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿export class Super {
 
-namespace Eleina.src.Subpages
-{
-    public class super
-    {
-    }
 }
+

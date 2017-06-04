@@ -8,8 +8,8 @@ export class App {
         this.router = router;
         config.title = 'Aurelia';
         config.map([
-            { route: ['/', 'also'], name: 'also', moduleId: 'Subpages/also', nav: true, title: "also" },
-            { route: ['/', 'home'], name: 'home', moduleId: 'Subpages/home', nav: true, title: "Home" },
+            { route: ['', 'also'], name: 'also', moduleId: 'Subpages/also', nav: true, title: "also" },
+            { route: 'super', name: 'super', moduleId: 'Subpages/super', nav: true, title: "super" },
             
            
 

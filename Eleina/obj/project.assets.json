@@ -9732,10 +9732,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AAALL stuffs\\AAAFontys\\22\\Killer App\\Eleina2017\\Eleina\\Eleina\\Eleina.csproj",
+      "projectUniqueName": "C:\\AAALL stuffs\\Eleina2017\\Eleina\\Eleina\\Eleina.csproj",
       "projectName": "Eleina",
-      "projectPath": "C:\\AAALL stuffs\\AAAFontys\\22\\Killer App\\Eleina2017\\Eleina\\Eleina\\Eleina.csproj",
-      "outputPath": "C:\\AAALL stuffs\\AAAFontys\\22\\Killer App\\Eleina2017\\Eleina\\Eleina\\obj\\",
+      "projectPath": "C:\\AAALL stuffs\\Eleina2017\\Eleina\\Eleina\\Eleina.csproj",
+      "outputPath": "C:\\AAALL stuffs\\Eleina2017\\Eleina\\Eleina\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
