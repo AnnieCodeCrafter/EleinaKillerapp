@@ -1,9 +1,10 @@
 ﻿<template>
 
- <input type="text" placeholder="your username here" />
-  <input type="password" />
-  <button type="submit" click.delegate="submitUserPass"> 'login' </button>
-        
+  <input value.bind="Username">
+  <input value.bind="Password">
+
+  <button click.trigger="sayHello()">Say Hello</button>
+  <p> ${message}</p>
 
   
 
