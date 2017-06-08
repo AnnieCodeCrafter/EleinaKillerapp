@@ -10,19 +10,20 @@ namespace Eleina.Login
 {
     public class Login
     {
-     private string connectionString = "Data Source=mssql.fhict.local;Initial Catalog=dbi364679;User ID=dbi364679;Password=Thorax1998";
+    Conn conn = new Conn();
+    
+    
 
         private int ID;
 
 
         public void addUser(string username, string password)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                //change user in actual database; prolly a 'protected' keyword
-                conn.Open();
+           conn.Connect();            
+              
+                
                 string query = "INSERT INTO ElUser VALUES (@username, @password)";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlCommand cmd = new SqlCommand(query))
                 {
 
 
@@ -36,7 +37,7 @@ namespace Eleina.Login
 
                 }
 
-            }
+            
         }
 
         //public int loginUser(string username, string password)
