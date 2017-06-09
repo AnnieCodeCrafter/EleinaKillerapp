@@ -1,4 +1,6 @@
-﻿export class Super{
+﻿import { HttpClient, json } from "aurelia-fetch-client"
+
+export class Super{
 
     //username = '';
     //password = '';
@@ -20,7 +22,7 @@
     }
 
     addUser() {
-        this.http
+        this.http.fetch{
     }
 
 
